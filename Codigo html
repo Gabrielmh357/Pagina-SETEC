@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SETEC</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colégio Estadual Barbosa Ferraz</title>
+    <link rel="stylesheet" href="stylesbar.css">
 </head>
 <body>
-  <div class="container">
     <header>
-      <h1>SETEC Barbosa Ferraz 2025</h1>
-      <p class="subtitle">Prepare-se para o futuro da inovação</p>
+        <h1>Colégio Estadual Barbosa Ferraz</h1>
+        <p>Educação de qualidade para um futuro melhor!</p>
     </header>
 
     <main>
-      <section class="event-info">
-        <h2>Sobre o Evento</h2>
-        <p>A SETEC é um dos principais eventos do colegio estatual Barbosa Ferraz, reunindo alunos, professores,proficionais na área e muito mais.</p>
-        <p><strong>Data:</strong> nos dias do mes de setembro</p>
-        <p><strong>Local:</strong> Na quadra do colegio</p>
-      </section>
+        <section class="info">
+            <h2>1. Sobre o Colégio</h2>
+            <p>O Colégio Estadual Barbosa Ferraz é uma instituição de ensino que visa formar cidadãos com consciência crítica, habilidades e valores, proporcionando educação de qualidade a todos os alunos.</p>
+        </section>
 
-      <section class="cta">
-        <h3>Não perca essa oportunidade!</h3>
-        <a href="#formulario" class="btn">Garanta seu ingresso</a>
-      </section>
+        <section class="info">
+            <h2>2. Ensino Fundamental</h2>
+            <p>Oferecemos ensino fundamental com uma abordagem voltada para o desenvolvimento integral dos alunos, preparando-os para desafios acadêmicos e sociais.</p>
+        </section>
 
-      <section id="formulario" class="form-section">
-        <h2>Cadastro para o Evento</h2>
-        <form class="formulario">
-          <label for="nome">Nome completo:</label>
-          <input type="text" id="nome" name="nome" required>
+        <section class="info">
+            <h2>3. Ensino Médio</h2>
+            <p>O Ensino Médio do Colégio Estadual Barbosa Ferraz prepara o estudante para o ingresso no ensino superior ou no mercado de trabalho, com cursos de excelência e infraestrutura moderna.</p>
+        </section>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+        <section class="info">
+            <h2>4. Cursos Técnicos</h2>
+            <p>Oferecemos cursos técnicos com enfoque nas áreas de administração, informática, e outros, proporcionando uma formação técnica que abre portas no mercado de trabalho.</p>
+        </section>
 
-          <label for="telefone">Telefone:</label>
-          <input type="tel" id="telefone" name="telefone" required>
+        <section class="info">
+            <h2>5. Atividades Complementares</h2>
+            <p>Além das aulas regulares, temos atividades como esportes, robótica, teatro, e projetos culturais que enriquecem a formação dos nossos alunos.</p>
+        </section>
 
-          <label for="idade">Idade:</label>
-          <input type="number" id="idade" name="idade" required>
+        <section class="info">
+            <h2>6. Projetos Educacionais</h2>
+            <p>O Colégio Barbosa Ferraz desenvolve diversos projetos educacionais que visam fortalecer o aprendizado e estimular o interesse por novas áreas de conhecimento.</p>
+        </section>
 
-          <label for="cpf">CPF:</label>
-          <input type="text" id="cpf" name="cpf" required>
+        <section class="info">
+            <h2>7. Estrutura da Escola</h2>
+            <p>Contamos com uma excelente infraestrutura, com salas de aula amplas e equipadas, laboratório de ciências, informática, biblioteca e áreas de convivência.</p>
+        </section>
 
-          <button type="submit" class="btn">Enviar</button>
-        </form>
-      </section>
+        <section class="info">
+            <h2>8. Inscrições e Matrículas</h2>
+            <p>As matrículas para o próximo ano letivo estão abertas! Visite nosso site ou entre em contato para saber mais sobre como garantir a sua vaga.</p>
+        </section>
+
+        <section class="info">
+            <h2>9. Contato</h2>
+            <p>Para mais informações, entre em contato conosco:</p>
+            <ul>
+                <li><strong>Telefone:</strong> (43) 3472-5009</li>
+                <li><strong>E-mail:</strong> ivpbarbosa@gmail.com</li>
+            </ul>
+        </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 TechWave. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Colégio Estadual Barbosa Ferraz. Todos os direitos reservados.</p>
     </footer>
-  </div>
 </body>
 </html>
-
