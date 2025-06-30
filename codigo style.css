@@ -1,65 +1,59 @@
-/* styles.css */
-body {
+* {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  color: #f0f0f0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-image: url('plano.jfif'); /* Caminho para a imagem */
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  line-height: 1.6;
 }
 
 header {
+  background-color: rgba(26, 35, 126, 0.7); /* Fundo escuro para contraste */
+  color: white;
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
-h1 {
-  font-size: 3rem;
-  color: #00ffff;
-  text-shadow: 0 0 10px #00ffff, 0 0 20px #008080;
+header h1 {
+  font-size: 2.5rem;
 }
 
-.subtitle {
-  font-size: 1.2rem;
-  color: #ccc;
+main {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
 }
 
-.event-info {
-  background: rgba(255, 255, 255, 0.05);
+.info {
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+  border: 1px solid #ccc;
   padding: 1.5rem;
-  margin-top: 2rem;
-  border-left: 4px solid #00ffff;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
 }
 
-.cta {
-  text-align: center;
-  margin-top: 2rem;
+.info:hover {
+  transform: scale(1.02);
 }
 
-.btn {
-  background-color: #00ffff;
-  color: #000;
-  padding: 0.75rem 1.5rem;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-  box-shadow: 0 0 10px #00ffff;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.btn:hover {
-  background-color: #00cccc;
-  transform: scale(1.05);
+.info h2 {
+  color: #1a237e;
+  margin-bottom: 0.5rem;
 }
 
 footer {
+  background-color: #1a237e;
+  color: white;
   text-align: center;
-  margin-top: 3rem;
-  font-size: 0.9rem;
-  color: #888;
+  padding: 1rem;
+  margin-top: 2rem;
 }
+
